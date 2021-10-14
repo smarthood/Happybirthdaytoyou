@@ -21,7 +21,7 @@ body.on{
     position: relative;
     width: 80px;
     height:80px;
-    background: #444;
+    background: rgb(155, 153, 153);
     border-radius: 50%;
     z-index: 2;
 }
@@ -32,7 +32,7 @@ body.on{
     left: 22.5px;
     width: 35px;
     height: 80px;
-    background: #444;
+    background: rgb(155, 153, 153);;
     border-top: 30px solid #000;
     border-radius: 10px;
 }
@@ -73,7 +73,7 @@ body.on .bulb{
     background: transparent;
     transform: rotate(341deg) ;
     border-bottom-right-radius: 40px;
-    box-shadow: 20px 20px 0 10px #444;
+    box-shadow: 20px 20px 0 10px rgb(155, 153, 153);;
     
 }
 body.on .bulb span:nth-child(1){
@@ -90,7 +90,7 @@ body.on .bulb span:nth-child(1){
     background: transparent;
     transform: rotate(17deg) ;
     border-bottom-left-radius: 40px;
-    box-shadow: -20px 20px 0 10px #444;
+    box-shadow: -20px 20px 0 10px rgb(155, 153, 153);
 }
 body.on .bulb span:nth-child(2){
     box-shadow: -20px 20px 0 10px #fff;
@@ -195,3 +195,4 @@ body.on .text{
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
 }
 }
+
